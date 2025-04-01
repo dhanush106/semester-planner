@@ -1,0 +1,36 @@
+.navbar ul{
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar{
+    background-color: black;
+    padding: 10px 25px;
+    margin: 20px;
+    border-radius: 12px;
+}
+.navbar ul li{
+    list-style-type: none;
+    font-size: 22px;
+}
+.navbar ul li .l{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+.navbar ul li .l::before{
+    content: '';
+    background-color: aqua;
+    width: 7px;
+    height: 5px;
+    position: absolute;
+    bottom: -16px;
+    border-radius: 17px;
+    box-shadow: 0px 0px 12px 1px aqua;
+}
+.navbar ul li .l:hover::before{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}

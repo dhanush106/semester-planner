@@ -1,0 +1,67 @@
+.subjects-container{
+    margin: 20px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.input-container input,textarea{
+    padding: 10px;
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    border-bottom: 2px solid aqua;
+    margin-bottom: 20px;
+}
+.input-container textarea{
+    width: 400px;
+    height: 200px;
+}
+.input-container button{
+    background-color: azure;
+    padding: 15px 0px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 25px 0px;
+}
+.input-container button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 12px aqua;
+    transition: background-color 0.25s ease-out;
+}
+.s-l{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+.subject-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.subject-list li{
+    box-shadow: 0px 0px 7px aqua;
+    padding: 12px 30px;
+    border-radius: 7px;
+    margin: 20px;
+}
+.subject-list li:hover{
+    background-color: aqua;   
+    box-shadow: 0px 0px 7px 2px aqua;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+}
